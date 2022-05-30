@@ -3,17 +3,202 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/output.css" />
 </head>
 
 <body>
-    Đây là trang home
-    <a href="detail.html">Chi tiết sản phẩm</a>
-    <a href="products.html">Sản phẩm</a>
-    <div id="app"></div>
-    <script type="module" src="./src/js/main.js"></script>
+    <div class="app max-w-screen-xl mx-auto">
+        <header class="flex h-12 items-center">
+            <a href="" class="logo w-10 font-bold">Fudo.</a>
+
+            <ul class="flex-1 flex items-center justify-center space-x-10">
+                <li><a href="" class="header-menu-link">Home</a></li>
+                <li><a href="" class="header-menu-link">Product</a></li>
+                <li><a href="" class="header-menu-link">About us</a></li>
+                <li><a href="" class="header-menu-link">Contact us</a></li>
+            </ul>
+            <ul class="w-96 flex items-center justify-center space-x-10">
+                <li><a href="">giỏ hàng</a></li>
+                <li class="w-20 h-9 flex items-center justify-center text-red-500 border border-red-500 rounded-md">
+                    <a href="">Sign in</a>
+                </li>
+                <li class="w-20 h-9 flex items-center justify-center bg-red-500 text-white rounded-md">
+                    <a href="">Sign up</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="content mt-10">
+            <div class="grid grid-cols-2 gap-10">
+                <div class="">
+                    <button class="w-40 h-11 bg-red-100 text-red-600 text-sm">
+                            Quality Food
+                        </button>
+                    <div class="text-6xl mt-11 mb-8">
+                        <span class="block">Fastest</span>
+                        <span class="text-red-600">Delivery </span>
+                        <span class="">&</span>
+                        <div class="">
+                            <span class="text-red-600">  Easy </span>
+                            <span class="">Pickup</span>
+                        </div>
+                    </div>
+                    <p class="ext-sm my-8">
+                        Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.
+                    </p>
+                    <div class="search w-[484px] h-16 flex border border-red-600 rounded-lg">
+                        <input type="text" class="flex-1 px-2">
+                        <button class="w-40 bg-red-500 rounded-r-lg text-white">Discover</button>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="https://picsum.photos/616/616" alt="" class="w-[616px] h-[616px] rounded-lg">
+                </div>
+            </div>
+
+            <!-- main -->
+            <div class="main">
+                <div class="flex flex-col items-center justify-center my-8">
+                    <h2 class="text-6xl my-6">Our Popular Dishes</h2>
+                    <p class="max-w-3xl text-center">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <p class="text-primary my-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="">30 Minutes</span>
+                            <span class="">Snack</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <p class="text-primary my-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="">30 Minutes</span>
+                            <span class="">Snack</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <p class="text-primary my-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="">30 Minutes</span>
+                            <span class="">Snack</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <p class="text-primary my-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="">30 Minutes</span>
+                            <span class="">Snack</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <p class="text-primary my-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="">30 Minutes</span>
+                            <span class="">Snack</span>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <p class="text-primary my-4">Big and Juicy Wagyu Beef Cheeseburger</p>
+                        <div class="flex items-center space-x-4 text-gray-600">
+                            <span class="">30 Minutes</span>
+                            <span class="">Snack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATORY -->
+            <div class="catory mt-24">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-black text-5xl font-bold">Categories</h3>
+                    <button class="w-56 h-12 text-lg text-red-600 border border-red-600 rounded-md">View All Categories</button>
+                </div>
+
+                <div class="grid grid-cols-3 lg:grid-cols-6 gap-8 mt-20">
+                    <div class="column">
+                        <img src="https://picsum.photos/120/120" alt="" class="mb-8">
+                        <span class="">Breakfast</span>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/120/120" alt="" class="mb-8">
+                        <span class="">Breakfast</span>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/120/120" alt="" class="mb-8">
+                        <span class="">Breakfast</span>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/120/120" alt="" class="mb-8">
+                        <span class="">Breakfast</span>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/120/120" alt="" class="mb-8">
+                        <span class="">Breakfast</span>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/120/120" alt="" class="mb-8">
+                        <span class="">Breakfast</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="contact mt-24 flex flex-col items-center justify-center">
+                <h3 class=" text-5xl font-bold">Contact us</h3>
+                <div class="w-full mt-[56px] grid grid-cols-2 gap-10">
+                    <div class="form ">
+                        <label for="email" class="block text-lg">NAME</label>
+                        <input type="text" placeholder="Enter your name..." class="w-full h-14 mt-2 px-2 border border-gray-300 rounded-md ">
+                    </div>
+                    <div class="form ">
+                        <label for="email" class="block text-lg">EMAIL ADDRESS</label>
+                        <input type="text" placeholder="Enter your name..." class="w-full h-14 mt-2 px-2 border border-gray-300 rounded-md ">
+                    </div>
+                    <div class="form ">
+                        <label for="email" class="block text-lg">SUBJECT</label>
+                        <input type="text" placeholder="Enter your name..." class="w-full h-14 mt-2 px-2 border border-gray-300 rounded-md ">
+                    </div>
+                    <div class="form ">
+                        <label for="email" class="block text-lg">ENQUIRY TYPE</label>
+                        <input type="text" placeholder="Enter your name..." class="w-full h-14 mt-2 px-2 border border-gray-300 rounded-md ">
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <label for="" class="block text-lg">MESSAGE</label>
+                    <textarea type="text" rows="9" cols="70" class="w-full h-[200px] mt-2 px-2 border border-gray-300 rounded-md "> </textarea>
+                </div>
+
+                <button class="w-[184px] mt-8 h-16 bg-black text-white rounded-sm">SUBMIT</button>
+            </div>
+        </div>
+
+        <footer class="my-[116px] ">
+            <span class="block w-full h-px bg-gray-200"></span>
+            <div class="mt-8 flex justify-between">
+                <a href="" class="logo font-bold">Fudo.</a>
+
+                <ul class=" flex items-center justify-center space-x-10">
+                    <li><a href="" class="header-menu-link">Home</a></li>
+                    <li><a href="" class="header-menu-link">Product</a></li>
+                    <li><a href="" class="header-menu-link">About us</a></li>
+                    <li><a href="" class="header-menu-link">Contact us</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
