@@ -6,10 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/css/detail.css">
 </head>
 
 <body>
-    Details
+    <div class="app max-w-screen-xl mx-auto">
+        <header class="flex h-12 items-center">
+            <a href="" class="logo w-10 font-bold">Fudo.</a>
+
+            <ul class="flex-1 flex items-center justify-center space-x-10">
+                <li><a href="" class="header-menu-link">Home</a></li>
+                <li><a href="" class="header-menu-link">Product</a></li>
+                <li><a href="" class="header-menu-link">About us</a></li>
+                <li><a href="" class="header-menu-link">Contact us</a></li>
+            </ul>
+            <ul class="w-96 flex items-center justify-center space-x-10">
+                <li><a href="">giỏ hàng</a></li>
+                <li class="w-20 h-9 flex items-center justify-center text-red-500 border border-red-500 rounded-md">
+                    <a href="">Sign in</a>
+                </li>
+                <li class="w-20 h-9 flex items-center justify-center bg-red-500 text-white rounded-md">
+                    <a href="">Sign up</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="content mt-10">
+            <div class="grid grid-cols-2 gap-10">
+                <div class="">
+                    <h1 class="text-[40px] font-bold">Big and Juicy Wagyu Beef Cheeseburger</h1>
+
+                    <span class="block mt-5 text-4xl text-red-600">$30</span>
+
+                    <p class="ext-sm my-8 leading-7">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+                        placerat eleifend leo.
+                    </p>
+                    <div class="search w-[484px] h-16 flex ">
+                        <input type="text" class="flex-1 mr-2 px-2 border" placeholder="Quantity">
+                        <button class="w-40 bg-black rounded-r-lg text-white">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="https://picsum.photos/616/616" alt="" class="w-[616px] h-[616px] rounded-lg">
+                </div>
+            </div>
+
+            <!-- main -->
+            <div class="main">
+                <div class=" my-8">
+                    <h2 class="text-2xl my-6 font-semibold">Related Products</h2>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <h3 class="text-primary my-4 font-semibold text-lg">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                        <span class="block text-red-600">$30</span>
+
+                        <button class="w-full mt-5 h-10 bg-black text-white rounded-md">Add To Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <h3 class="text-primary my-4 font-semibold text-lg">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                        <span class="block text-red-600">$30</span>
+
+                        <button class="w-full mt-5 h-10 bg-black text-white rounded-md">Add To Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="https://picsum.photos/500/250" alt="" class="rounded-lg">
+                        <h3 class="text-primary my-4 font-semibold text-lg">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                        <span class="block text-red-600">$30</span>
+
+                        <button class="w-full mt-5 h-10 bg-black text-white rounded-md">Add To Cart</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="my-[116px] ">
+            <span class="block w-full h-px bg-gray-200"></span>
+            <div class="mt-8 flex justify-between">
+                <a href="" class="logo font-bold">Fudo.</a>
+
+                <ul class=" flex items-center justify-center space-x-10">
+                    <li><a href="" class="header-menu-link">Home</a></li>
+                    <li><a href="" class="header-menu-link">Product</a></li>
+                    <li><a href="" class="header-menu-link">About us</a></li>
+                    <li><a href="" class="header-menu-link">Contact us</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
